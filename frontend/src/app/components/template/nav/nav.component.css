@@ -1,0 +1,29 @@
+.sidenav {
+  display: flex;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.281);
+  width: 200px;
+}
+
+.sidenav a {
+  color: #ae841ae5;
+}
+
+.sidenav i {
+  background-color: rgba(0, 0, 0, 0.281);
+  padding-right: 10px;
+}
+
+.content {
+  padding: 16px;
+  background-color: rgba(0, 0, 0, 0);
+}
+.container {
+  background-color: rgba(0, 0, 0, 0);
+}
+.mat-drawer-inner-container {
+  background-color: rgba(0, 0, 0, 0.281);
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+}

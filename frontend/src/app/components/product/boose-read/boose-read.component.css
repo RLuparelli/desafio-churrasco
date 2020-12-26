@@ -1,0 +1,20 @@
+table {
+  background-color: rgba(0, 0, 0, 0.281);
+  margin-left: 30px;
+  width: 400px;
+}
+.div {
+  background-color: rgba(240, 240, 13, 0);
+}
+.edit {
+  margin-right: 18px;
+}
+.edit > i {
+  color: #ae841ae5;
+}
+.delete > i {
+  color: #f13246;
+}
+.price {
+  color: #ae841ae5;
+}

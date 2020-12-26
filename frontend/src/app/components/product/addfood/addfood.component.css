@@ -1,0 +1,17 @@
+.mat-card {
+  background-color: #00000052;
+  width: 400px;
+  border-radius: 5px;
+  background-blend-mode: normal;
+}
+
+.tela {
+  background-color: #00000052;
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+button {
+  margin-right: 20px;
+}

@@ -1,0 +1,39 @@
+<mat-sidenav-container class="container">
+  <mat-sidenav
+    class="sidenav"
+    mode="side"
+    opened
+    fixedInViewport="true"
+    fixedTopGap="130"
+  >
+    <mat-nav-list class="nav-list">
+      <a mat-list-item routerLink="/">
+        <i class="material-icons"> login </i>
+        Log In
+      </a>
+      <a mat-list-item routerLink="/addperson">
+        <i class="material-icons"> group_add </i>
+        Cadastro
+      </a>
+      <a mat-list-item routerLink="/pessoas">
+        <i class="material-icons"> group </i>
+        Lista de Participantes
+      </a>
+      <a mat-list-item routerLink="/food">
+        <i class="material-icons"> whatshot </i>
+        Lista Churrasco
+      </a>
+      <a mat-list-item routerLink="/boose">
+        <i class="material-icons"> sports_bar </i>
+        Lista Bebidas
+      </a>
+      <a mat-list-item routerLink="/list">
+        <i class="material-icons"> add_shopping_cart </i>
+        Adicionar compras
+      </a>
+    </mat-nav-list>
+  </mat-sidenav>
+  <mat-sidenav-content class="content">
+    <router-outlet></router-outlet>
+  </mat-sidenav-content>
+</mat-sidenav-container>
